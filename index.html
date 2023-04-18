@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css"></link>
+</head>
+<body>
+    
+<div style="text-align:center;">
+<canvas id="BlocA" width="750" height="350">
+</canvas><br>
+
+<canvas id="BlocB" width="750" height="350">
+</canvas>
+</div>
+
+<script>
+let x = 375
+let y = 100
+var canvas1 = document.getElementById("BlocA");
+var ctx1 = canvas1.getContext("2d");
+ctx1.fillStyle = 'rgb(0, 255, 0)';
+ctx1.textAlign = "center";
+ctx1.font = "30px Arial";
+ctx1.fillText("Bloc A",x, y);
+
+var canvas2 = document.getElementById("BlocB");
+var ctx2 = canvas2.getContext("2d");
+ctx2.fillStyle = 'rgb(0, 255, 0)';
+ctx2.textAlign = "center";
+ctx2.font = "30px Arial";
+ctx2.fillText("Bloc B",x,y);
+</script>
+
+</body>
+</html>
