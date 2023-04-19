@@ -1,0 +1,12 @@
+option{
+    color: rgb(0, 102, 102);
+}
+select{
+    background-color: rgb(0, 255, 0);
+}
+.green{
+    color: rgb(0, 255, 0);
+}
+.darkgreen{
+    color: rgb(0, 102, 102);
+}
