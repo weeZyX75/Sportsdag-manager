@@ -16,6 +16,7 @@ $conn = new mysqli(
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
  
     // collect value of input field
+    $data = "";
     $activity_name = $_REQUEST['activity-name'];
     $participants_limit = $_REQUEST['participants-limit'];
     $location = $_REQUEST['location'];
@@ -24,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $meeting_point = $_REQUEST['meeting-point'];
  
     if (empty($data)) {
-        echo "data is empty";
+        echo "data is empty    ";
     } else {
         echo $data;
     }
@@ -36,7 +37,7 @@ if ($conn->connect_error) {
         . $conn->connect_error);
 }
  
-$sqlquery = "INSERT INTO `activities` (`id`, `activity_name`, `participants_limit`, `location`, `block_a`, `block_b`, `meeting_point`) VALUES ($activity_name, $participants_limit, $location, $block_a, $block_b, $meeting_point)";
+$sqlquery = "INSERT INTO `activities` (`id`, `activity_name`, `participants_limit`, `location`, `block_a`, `block_b`, `meeting_point`) VALUES ( " . $activity_name . "," . $participants_limit . "," . $location . "," . $block_a . "," . $block_b . "," . $meeting_point . ")";
  
 if ($conn->query($sql) === TRUE) {
     echo "record inserted successfully";
