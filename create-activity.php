@@ -14,24 +14,26 @@
   <h1 class="green">Sportsdag</h1>
     <div>
         <label for="activity-name">activity name:</label><br>
-        <input type="text" id="activity-name" name="activity-name">
+        <input type="text" id="activity-name" name="activity-name"> <br>
 
         <label for="participant-limit">participant-limit:</label><br>
-        <input type="number" id="participant-limit" name="participant-limit">
+        <input type="number" id="participant-limit" name="participant-limit"><br>
 
         <label for="location">location:</label><br>
-        <input type="text" id="location" name="location">
+        <input type="text" id="location" name="location"><br>
 
         <label for="block-a">block-a:</label><br>
-        <input type="bool" id="block-a" name="block-a">
+        <input type="bool" id="block-a" name="block-a"><br>
 
         <label for="block-a">block-b:</label><br>
-        <input type="bool" id="block-b" name="block-b">
+        <input type="bool" id="block-b" name="block-b"><br>
 
         <label for="block-a">meeting-point:</label><br>
-        <input type="text" id="meeting-point" name="meeting-point">
+        <input type="text" id="meeting-point" name="meeting-point"><br>
 
     </div>
+    <input type="submit" value="Submit">
+
     </form>
 </body>
 
