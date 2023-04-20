@@ -9,7 +9,7 @@
   </head>
   
   <body style="background-color: rgb(0, 102, 102)">
-
+  <p>test1</p>
   <form action="create-activity-submit.php" method="post">
   <h1 class="green">Sportsdag</h1>
     <div>
