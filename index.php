@@ -105,6 +105,7 @@
     };
 
     if (isset($_REQUEST['block_a'] , $_REQUEST['block_b'])){
+        $sql = "INSERT INTO `activities` (`id`, `activity_name`, `participants_limit`, `location`, `block_a`, `block_b`, `meeting_point`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
         $sql = "INSERT INTO `SportsdaagManager` (`id`, `block_a`, `block_b`, `time`) VALUES (Null, '" . $_REQUEST['block_a'] . "','" . $_REQUEST['block_b'] . "', current_timestamp())";
 
         if( $conn->query( $sql ) === FALSE ){
