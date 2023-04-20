@@ -16,7 +16,7 @@ $conn = new mysqli(
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
  
     // collect value of input field
-    $data = "";
+    $data = "not empty";
     $activity_name = $_REQUEST['activity-name'];
     $participants_limit = $_REQUEST['participants-limit'];
     $location = $_REQUEST['location'];
