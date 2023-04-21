@@ -93,10 +93,10 @@
     
     <?php
 
-    $server = "sql125.your-server.de";
-    $db = "lemaco_db_ws";
-    $user = "lemaco_db_ws";
-    $pw = "WSmysql01**";
+    $server = "sql597.your-server.de";
+    $db = "sportsdag";
+    $user = "sportsdag";
+    $pw = "nsT4gVdHi2mPaZVs";
 
     $conn = new mysqli( $server, $user, $pw, $db);
 
@@ -105,6 +105,7 @@
     };
 
     if (isset($_REQUEST['block_a'] , $_REQUEST['block_b'])){
+        $sql = "INSERT INTO `activities` (`id`, `activity_name`, `participants_limit`, `location`, `block_a`, `block_b`, `meeting_point`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)";
         $sql = "INSERT INTO `SportsdaagManager` (`id`, `block_a`, `block_b`, `time`) VALUES (Null, '" . $_REQUEST['block_a'] . "','" . $_REQUEST['block_b'] . "', current_timestamp())";
 
         if( $conn->query( $sql ) === FALSE ){
