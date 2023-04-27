@@ -10,3 +10,10 @@ select{
 .darkgreen{
     color: rgb(0, 102, 102);
 }
+div {
+    display: flex;
+    justify-content: center;
+    }
+    .img1 {
+        align-content: center;
+    }

@@ -91,6 +91,7 @@
         </div>
     </div>
     </form>
+    <div><img class="img1" src="Dragons.png" alt="Italian Trulli" width="15%" height="15%"></div>
     
     <?php
 
