@@ -16,40 +16,41 @@
             <p class="green">Open this select menu</p>
 
                     
-                        <select name="block_a" id="select1" onchange="getSelectValue();" class="form-select" aria-label="Default select example">
-                            <option value="Absent">Absent</option>
-                            <optgroup label="Aus dem Lem eraus">
-                            <option selected></option>
-                            <option value="1">Treppeltour Extrem (blocs A+B)(RV Loge)</option>
-                            <option value="2">Treppeltour Extrem 2 (blocs A+B)(RV Loge)</option>
-                            <option value="3">Treppeltour Extrem 3 mat Hond (blocs A+B)(RV Loge)</option>
-                            <option value="4">MTB avancé (blocs A+B) (RV HDS)</option>
-                            <option value="5">Treppeltour 1 (RV Loge)</option>
-                            <option value="6">Treppeltour 2 (RV Loge)</option>
-                            <option value="7">Treppeltour 3 (RV Loge)</option>
-                            <option value="8">Treppeltour 4 (RV Loge)</option>
-                            <option value="9">Disc Golf (RV HDS)</option>
-                            <option value="10">Easy Jogging (RV HDS)</option>
-                            <option value="11">Pétanque (RV Loge)</option>
-                            </optgroup>
-                            <optgroup label="am Lem dobaussen">
-                            <option value="12">Football 5 vs 5</option>
-                            <option value="13">Volleyball avancé</option>
-                            <option value="14">Völkerball 8 vs 8</option>
-                            <option value="15">Baseball</option>
-                            <option value="16">Ultimate frisbee</option>
-                            <option value="17">Ballroom Dance</option>
-                            </optgroup>
-                            <optgroup label="am Lem dobannen">
-                            <option value="18">Contemporary dance</option>
-                            <option value="19">Escalade</option>
-                            <option value="20">Badminton</option>
-                            <option value="21">Basketball</option>
-                            <option value="22">Yoga</option>
-                            <option value="23">Fitness</option>
-                            <option value="24">Boxe anglaise</option>
-                            </optgroup>
-                        </select><br><br>
+            <select name="block_a" id="select1" onchange="getSelectValue();" class="form-select" aria-label="Default select example">
+            <option selected></option>    
+            <option value="Absent">Absent</option>
+                <optgroup label="Aus dem Lem eraus">
+                <option selected></option>
+                <option value="1">Treppeltour Extrem (blocs A+B)(RV Loge)</option>
+                <option value="2">Treppeltour Extrem 2 (blocs A+B)(RV Loge)</option>
+                <option value="3">Treppeltour Extrem 3 mat Hond (blocs A+B)(RV Loge)</option>
+                <option value="4">MTB avancé (blocs A+B) (RV HDS)</option>
+                <option value="5">Treppeltour 1 (RV Loge)</option>
+                <option value="6">Treppeltour 2 (RV Loge)</option>
+                <option value="7">Treppeltour 3 (RV Loge)</option>
+                <option value="8">Treppeltour 4 (RV Loge)</option>
+                <option value="9">Disc Golf (RV HDS)</option>
+                <option value="10">Easy Jogging (RV HDS)</option>
+                <option value="11">Pétanque (RV Loge)</option>
+                </optgroup>
+                <optgroup label="am Lem dobaussen">
+                <option value="12">Football 5 vs 5</option>
+                <option value="13">Volleyball avancé</option>
+                <option value="14">Völkerball 8 vs 8</option>
+                <option value="15">Baseball</option>
+                <option value="16">Ultimate frisbee</option>
+                <option value="17">Ballroom Dance</option>
+                </optgroup>
+                <optgroup label="am Lem dobannen">
+                <option value="18">Contemporary dance</option>
+                <option value="19">Escalade</option>
+                <option value="20">Badminton</option>
+                <option value="21">Basketball</option>
+                <option value="22">Yoga</option>
+                <option value="23">Fitness</option>
+                <option value="24">Boxe anglaise</option>
+                </optgroup>
+            </select><br><br>
         </div>
             
 
