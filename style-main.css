@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,600');
+body{
+    background: radial-gradient(circle,#a6ffb9,#06051f);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* ================================================================================================ */
+.wrapper span{
+    position: fixed;
+    top: -120px;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    animation: animate 10s linear infinite;    
+}
+.wrapper span:nth-child(1){
+    left: 60px;
+    border-radius: 10px;
+    animation-delay:0.6s;
+    border: 5px solid #00a60b;
+}
+.wrapper span:nth-child(2){
+    left: 60%;
+    animation-delay: 3s;
+    width: 60px;
+    height: 60px;
+    background: #00a671;
+}
+.wrapper span:nth-child(3){
+    left: 20%;
+    border-radius: 10px;
+    animation-delay: 2s;
+    border: 5px solid #00d420;    
+}
+.wrapper span:nth-child(4){
+    left: 30%;
+    animation-delay: 5s;
+    width: 80px;
+    height: 80px;
+    background: #33ff8f;
+}
+.wrapper span:nth-child(5){
+    left: 40%;
+    border-radius: 10px;
+    animation-delay: 1s;
+    border: 5px solid #ccffd7;
+}
+.wrapper span:nth-child(6){
+    left: 50%;
+    animation-delay: 7s;
+    border: 5px solid #6dff33;
+}
+.wrapper span:nth-child(7){
+    left: 60%;
+    border-radius: 10px;
+    animation-delay: 6s;
+    width: 100px;
+    height: 100px;
+    background: #00a671;
+}
+.wrapper span:nth-child(8){
+    left: 70%;
+    animation-delay: 8s;
+    border: 5px solid #00a60b;
+}
+.wrapper span:nth-child(9){
+    left: 80%;
+    border-radius: 10px;
+    animation-delay: 6s;
+    width: 90px;
+    height: 90px;
+    background: #33ff8f;
+}
+.wrapper span:nth-child(10){
+    left: 90%;
+    border-radius: 10px;
+    animation-delay: 4s;
+    border: 5px solid #6dff33;    
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content h2{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff;
+    font-family: sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+    line-height: 0.9;
+}
+.content h2 b{
+    -webkit-text-fill-color: #fff;
+    font-size: 65px;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) translateX(-100px);
+        opacity: 1;
+    }
+    40%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(1300px) translateX(200px) rotate(360deg);
+        opacity: 0;
+    }
+}
